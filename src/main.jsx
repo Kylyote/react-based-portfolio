@@ -28,6 +28,10 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: 'hobbies',
+        element: <Hobbies />,
+      },
+      {
         path: 'portfolio',
         element: <Porfolio />,
       },
