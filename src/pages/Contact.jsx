@@ -18,7 +18,7 @@ export default function Contact() {
                 placeholder="Name"
               />
             </div>
-            <divName= className="form-group">
+            <div className="form-group">
               <label for="emailInput">Your Email address</label>
               <input
                 type="email"

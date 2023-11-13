@@ -5,11 +5,12 @@ import './index.css';
 
 // import all the pages that react will use
 import App from './App';
-import About from './About';
-import Contact from './Contact';
-import Error from './Error';
-import Porfolio from './Portfolio';
-import Resume from './Resume';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Error from './pages/Error';
+import Porfolio from './pages/Portfolio';
+import Hobbies from './pages/Hobbies';
+import Resume from './pages/Resume';
 
 // Define the routes needed for the navbar to function
 const router = createBrowserRouter([
@@ -24,19 +25,19 @@ const router = createBrowserRouter([
       },
       {
         // Are the / needed before the path? 
-        path: 'contact',
+        path: '/contact',
         element: <Contact />,
       },
       {
-        path: 'hobbies',
+        path: '/hobbies',
         element: <Hobbies />,
       },
       {
-        path: 'portfolio',
+        path: '/portfolio',
         element: <Porfolio />,
       },
       {
-        path: 'resume',
+        path: '/resume',
         element: <Resume />,
       }
     ]
