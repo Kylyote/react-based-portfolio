@@ -67,4 +67,5 @@ All these people have been very helpful and I am happy I will be able to stay in
 
 - Link to Repo:  
   https://github.com/Kylyote/react-based-portfolio
-- Link to Heroku:
+- Link to Netlify
+  https://main--papaya-marshmallow-59191e.netlify.app/
