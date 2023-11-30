@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,7 +9,7 @@ import App from './App';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
-import Porfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio';
 import Hobbies from './pages/Hobbies';
 import Resume from './pages/Resume';
 
@@ -25,19 +26,19 @@ const router = createBrowserRouter([
       },
       {
         // Are the / needed before the path? 
-        path: '/contact',
+        path: 'contact',
         element: <Contact />,
       },
       {
-        path: '/hobbies',
+        path: 'hobbies',
         element: <Hobbies />,
       },
       {
-        path: '/portfolio',
-        element: <Porfolio />,
+        path: 'portfolio',
+        element: <Portfolio />,
       },
       {
-        path: '/resume',
+        path: 'resume',
         element: <Resume />,
       }
     ]
