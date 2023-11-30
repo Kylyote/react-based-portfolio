@@ -10,9 +10,10 @@ export default function Hobbies() {
         <div className="col">
           <p>My hobbies include:</p>
           <ul>
-            <li>Playing video games</li>
-            <li>Watching movies</li>
-            <li>Playing sports</li>
+            <li>Building RC cars</li>
+            <li>Snowboarding</li>
+            <li>Working on computers</li>
+            <li>Playing with Arduino and Raspberry boards</li>
           </ul>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="container">
+    <div className="container bg-primary">
       <div className="row">
         <div className="col">
           <h1>About Me</h1>

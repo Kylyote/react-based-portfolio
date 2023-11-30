@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="row">
         <div className="col">
           <p>
-            My name is Matthew, and I am a full stack web developer.
+            My name is Kyle, and I am a full stack web developer. And I am still colorblind and it makes me frustated with CSS. I could also just be frustrated with CSS. 
           </p>
         </div>
       </div>
